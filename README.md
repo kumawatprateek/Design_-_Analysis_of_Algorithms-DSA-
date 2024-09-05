@@ -1,10 +1,6 @@
-Here's a README template tailored to the algorithms you've listed. You can adjust the descriptions and instructions as needed.
-
----
-
 # Design and Analysis of Algorithms
 
-Welcome to the repository for Design and Analysis of Algorithms. This repository contains implementations of various algorithms used in the study of algorithms and data structures.
+Welcome to the repository for Design and Analysis of Algorithms. This repository contains C implementations of various algorithms commonly studied in the design and analysis of algorithms.
 
 ## Table of Contents
 
@@ -54,28 +50,28 @@ The repository is organized as follows:
 ```
 /algorithms
     /graph
-        bfs.py
-        dfs.py
-        kruskal.py
-        prim.py
+        bfs.c
+        dfs.c
+        kruskal.c
+        prim.c
     /sorting
-        heap_sort.py
-        merge_sort.py
-        quick_sort.py
-        strassen_matrix.py
+        heap_sort.c
+        merge_sort.c
+        quick_sort.c
+        strassen_matrix.c
     /dynamic_programming
-        job_sequencing_deadlines.py
-        knapsack_problem.py
-        sum_of_subset.py
+        job_sequencing_deadlines.c
+        knapsack_problem.c
+        sum_of_subset.c
     /mathematical
-        factorial.py
-        factorial_recursive.py
-        fibonacci.py
-        multiply_matrices.py
+        factorial.c
+        factorial_recursive.c
+        fibonacci.c
+        multiply_matrices.c
     /backtracking
-        traveling_salesman.py
+        traveling_salesman.c
     /general
-        general_method.py
+        general_method.c
 ```
 
 ## How to Use
@@ -92,13 +88,19 @@ The repository is organized as follows:
     cd daa-algorithms/algorithms/graph
     ```
 
-3. Run the algorithm:
+3. Compile the algorithm:
 
     ```bash
-    python bfs.py
+    gcc bfs.c -o bfs
     ```
 
-Replace `bfs.py` with the algorithm you wish to run.
+4. Run the algorithm:
+
+    ```bash
+    ./bfs
+    ```
+
+Replace `bfs.c` with the file you wish to compile and run.
 
 ## Contributing
 
